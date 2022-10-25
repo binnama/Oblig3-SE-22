@@ -24,5 +24,5 @@ jobs:
       
     - name: Run test
       run: |
-        junit-jupiter test
+        mvn test
       
