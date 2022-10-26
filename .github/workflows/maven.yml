@@ -31,7 +31,7 @@ jobs:
       if: success() || failure()
       with:
         name: Test Results
-        path: ${{ github.workspace }} target/test-classes
+        path: ${{ github.workspace }} target/test-classes/LeapYear.class
         reporter: java-junit
         java-version: 17
       
