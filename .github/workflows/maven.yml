@@ -31,7 +31,7 @@ jobs:
       if: success() || failure()
       with:
         name: Test Results
-        path: ${{ github.workspace }} pom.xml
+        path: ${{ github.workspace }} /pom.xml
         reporter: java-junit
         java-version: 17
       
